@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add</title>
+</head>
+<body>
+	<style>
+	
+	body{
+	
+	background-image:url('bg.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+	}
+	
+	.header
+			{
+				height: 85px;
+				width: 100%;
+				font-color : White;
+				background-color: lightblue;
+				padding-top: 2px;
+			}
+	.links
+		{
+			height : 20px;
+			width : 100%;
+			background-color : rgba(100,90,85,0.9);
+			padding-top : 1px;
+		}	
+	.main
+		{
+			height: 450px;
+			width: 100%;
+			color : white;
+		
+		}
+	.footer
+		{
+			height: 90px;
+			width: 100%;
+			background-color: rgb(100,100,100);
+			padding-top: 10px;
+		}
+	a
+		{
+			text-decoration: none;
+			color: white;
+			margin-left: 220px;
+		}
+</style>
+<div class="header">
+<h1 align="center"> <b><i> Reach Easy </i></b> </h1>
+</div>
+
+<div class="main">
+
+<h1> <center>Add Company Details !! </center></h1> <br>
+
+<form action="Add" method="post">
+<center>
+
+<tr><td> <b>NAME</b></td><br>
+<td><input type="text" name="name"/><br></td></tr> <br>
+
+<tr><td> <b>CONTACT NO.</b> </td><br>
+<input type="text" name="cno"/><br><br>
+
+<tr><td> <b> ADDRESS </b></td><br>
+<input type="text" name="address"/><br><br>
+
+<tr><td> <b> CITY </b></td><br>
+<input type="text" name="city"/><br><br>
+
+<tr><td> <b> STATE </b></td><br>
+<input type="text" name="state"/><br><br>
+
+<tr><td> <b> COUNTRY </b></td><br>
+<input type="text" name="country" /><br><br>
+
+<tr><td> <b> WEBSITE </b></td><br>
+<input type="text" name="website" /><br><br>
+
+<tr><td> <b> INDUSTRY LIST </b></td><br>
+  <label for="list"></label>
+  <select id="list" name="list">
+    <option value="Account">Account</option>
+    <option value="IT">IT</option>
+    <option value="Sales">Sales</option>
+    <option value="Healthcare">Health Care</option>
+  </select>
+  </tr><br><br>
+  
+<input type="submit" value="Add" />
+</tr></center>
+
+</form>
+</div>
+
+
+</body>
+</html>
